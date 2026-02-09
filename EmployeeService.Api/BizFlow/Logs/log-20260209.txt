@@ -1,0 +1,24 @@
+2026-02-09 18:22:49.173 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 203.1803 ms
+2026-02-09 18:22:49.390 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.2108 ms
+2026-02-09 18:22:49.408 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 9.3721 ms
+2026-02-09 18:22:55.582 +05:00 [WRN] Client error 0HNJ7RP8J70CH:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJ7RP8J70CH:00000001"},"$type":"ProblemDetails"}
+2026-02-09 18:22:55.802 +05:00 [WRN] HTTP GET /employees responded 404 in 241.4431 ms
+2026-02-09 18:33:20.981 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-09 18:33:20.995 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-09 18:33:32.578 +05:00 [INF] HTTP GET /api/employees responded 200 in 28124.9067 ms
+2026-02-09 18:37:13.486 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 230.8539 ms
+2026-02-09 18:37:13.910 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 21.1673 ms
+2026-02-09 18:37:46.590 +05:00 [WRN] Client error 0HNJ7S1A622IE:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJ7S1A622IE:00000001"},"$type":"ProblemDetails"}
+2026-02-09 18:37:46.792 +05:00 [WRN] HTTP GET /employees responded 404 in 220.3634 ms
+2026-02-09 18:39:15.332 +05:00 [WRN] Client error 0HNJ7S1A622IF:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJ7S1A622IF:00000001"},"$type":"ProblemDetails"}
+2026-02-09 18:39:15.389 +05:00 [WRN] HTTP GET /employees responded 404 in 58.2936 ms
+2026-02-09 19:12:08.132 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 311.4221 ms
+2026-02-09 19:12:08.539 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.9325 ms
+2026-02-09 19:12:59.518 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-09 19:12:59.526 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-09 19:12:59.753 +05:00 [INF] HTTP GET /api/employees responded 200 in 20017.0194 ms
+2026-02-09 19:41:13.343 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 235.3104 ms
+2026-02-09 19:41:13.664 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.1738 ms
+2026-02-09 19:41:34.915 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-09 19:41:34.927 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-09 19:41:35.292 +05:00 [INF] HTTP GET /api/employees responded 200 in 3847.8135 ms

@@ -1,0 +1,4 @@
+2026-02-08 23:51:05.560 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 69.2436 ms
+2026-02-08 23:51:05.677 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.0754 ms
+2026-02-08 23:51:22.010 +05:00 [WRN] Client error 0HNJ78C1MAEC3:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJ78C1MAEC3:00000001"},"$type":"ProblemDetails"}
+2026-02-08 23:51:22.055 +05:00 [WRN] HTTP GET /employees responded 404 in 50.1134 ms
