@@ -1,4 +1,5 @@
-﻿using EmployeeService.Domain.Repositories;
+﻿using EmployeeService.Application.Common.Interfaces;
+using EmployeeService.Domain.Repositories;
 using EmployeeService.Infrastructure.Persistence;
 using EmployeeService.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -9,15 +10,18 @@ namespace EmployeeService.Infrastructure
 {
     public static class DependencyInjection
     {
-        /// <summary>
-        /// Registers DbContext and Repository dependencies.
-        /// </summary>
         public static IServiceCollection AddInfrastructure(
             this IServiceCollection services, IConfiguration config)
         {
             services.AddDbContext<BizFlowDbContext>(options =>
-                options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(
+                    config.GetConnectionString("DefaultConnection")));
 
+            // 🔥 IMPORTANT: Register abstraction
+            services.AddScoped<IApplicationDbContext>(provider =>
+                provider.GetRequiredService<BizFlowDbContext>());
+
+            // Repository registration
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
             return services;

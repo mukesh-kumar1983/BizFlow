@@ -1,4 +1,6 @@
 ﻿using EmployeeService.Domain.Common;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace EmployeeService.Domain.Entities
 {
@@ -11,6 +13,9 @@ namespace EmployeeService.Domain.Entities
         public string FirstName { get; private set; } = null!;
         public string LastName { get; private set; } = null!;
         public string Email { get; private set; } = null!;
+
+        [Timestamp]
+        public byte[] RowVersion { get; set; }   // 👈 must be byte[]
 
         /// <summary>
         /// Computed full name (not stored in DB).
@@ -26,34 +31,44 @@ namespace EmployeeService.Domain.Entities
         public Employee(Guid id, string firstName, string lastName, string email)
         {
             Id = id == Guid.Empty ? Guid.NewGuid() : id;
-            SetName(firstName, lastName);
+            SetFirstName(firstName);
+            SetLastName(lastName);
             SetEmail(email);
         }
 
-        /// <summary>
-        /// Updates employee name.
-        /// </summary>
-        public void SetName(string firstName, string lastName)
+        public void SetFirstName(string firstName)
         {
             if (string.IsNullOrWhiteSpace(firstName))
-                throw new ArgumentException("First name is required");
-
-            if (string.IsNullOrWhiteSpace(lastName))
-                throw new ArgumentException("Last name is required");
+                throw new ArgumentException("First name is required.");
 
             FirstName = firstName.Trim();
+        }
+
+        public void SetLastName(string lastName)
+        {
+            if (string.IsNullOrWhiteSpace(lastName))
+                throw new ArgumentException("Last name is required.");
+
             LastName = lastName.Trim();
         }
 
-        /// <summary>
-        /// Updates employee email.
-        /// </summary>
         public void SetEmail(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
-                throw new ArgumentException("Email is required");
+                throw new ArgumentException("Email is required.");
 
-            Email = email.Trim().ToLowerInvariant();
+            email = email.Trim().ToLowerInvariant();
+
+            // Basic email format validation
+            if (!System.Text.RegularExpressions.Regex.IsMatch(
+                email,
+                @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                throw new ArgumentException("Invalid email format.");
+            }
+
+            Email = email;
         }
+
     }
 }

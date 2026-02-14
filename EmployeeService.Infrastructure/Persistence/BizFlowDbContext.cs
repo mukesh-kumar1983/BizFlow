@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using EmployeeService.Domain.Entities;
+using EmployeeService.Application.Common.Interfaces;
 
 namespace EmployeeService.Infrastructure.Persistence;
 
-public sealed class BizFlowDbContext : DbContext
+public sealed class BizFlowDbContext : DbContext, IApplicationDbContext
 {
     public BizFlowDbContext(DbContextOptions<BizFlowDbContext> options)
         : base(options) { }

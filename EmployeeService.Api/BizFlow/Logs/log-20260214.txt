@@ -1,0 +1,197 @@
+2026-02-14 00:00:37.461 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 250.3340 ms
+2026-02-14 00:00:38.078 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 32.4411 ms
+2026-02-14 00:04:44.665 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 24.1450 ms
+2026-02-14 00:04:45.376 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 22.9041 ms
+2026-02-14 00:05:25.742 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 232.7111 ms
+2026-02-14 00:05:26.647 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 26.2202 ms
+2026-02-14 00:08:56.713 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 15.5066 ms
+2026-02-14 00:08:57.378 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.9874 ms
+2026-02-14 00:15:01.016 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 250.1521 ms
+2026-02-14 00:15:01.429 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.4897 ms
+2026-02-14 00:15:40.609 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 327.8824 ms
+2026-02-14 00:15:41.276 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 34.8303 ms
+2026-02-14 00:15:56.088 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:15:56.099 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:15:56.548 +05:00 [INF] HTTP GET /api/Employees responded 200 in 6924.5497 ms
+2026-02-14 00:18:26.221 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 390.1556 ms
+2026-02-14 00:18:26.854 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 29.8161 ms
+2026-02-14 00:18:35.060 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:18:35.068 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:18:35.473 +05:00 [INF] HTTP GET /api/Employees responded 200 in 4969.4881 ms
+2026-02-14 00:33:50.379 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 254.1159 ms
+2026-02-14 00:33:50.955 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 28.6034 ms
+2026-02-14 00:34:01.081 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:34:01.091 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:34:01.476 +05:00 [INF] HTTP GET /api/Employees responded 200 in 5220.0446 ms
+2026-02-14 00:35:28.631 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 233.9645 ms
+2026-02-14 00:35:28.933 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.9039 ms
+2026-02-14 00:35:47.044 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:35:47.055 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 00:35:47.444 +05:00 [INF] HTTP GET /api/Employees responded 200 in 4606.1311 ms
+2026-02-14 04:51:12.414 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 73.5451 ms
+2026-02-14 04:51:12.648 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.9324 ms
+2026-02-14 04:51:24.480 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 04:51:24.483 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 04:51:24.698 +05:00 [INF] HTTP GET /api/Employees responded 200 in 2820.8997 ms
+2026-02-14 04:57:47.337 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 82.9792 ms
+2026-02-14 04:57:47.558 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.2299 ms
+2026-02-14 04:57:51.664 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 04:57:51.668 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 04:57:51.780 +05:00 [INF] HTTP GET /api/Employees responded 200 in 1242.7477 ms
+2026-02-14 05:03:14.859 +05:00 [INF] HTTP GET /api/Employees responded 200 in 68.7957 ms
+2026-02-14 05:03:16.421 +05:00 [INF] HTTP GET /api/Employees responded 200 in 20.7629 ms
+2026-02-14 05:04:04.863 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 5.9563 ms
+2026-02-14 05:04:05.108 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.2163 ms
+2026-02-14 05:04:23.213 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 74.0320 ms
+2026-02-14 05:04:23.500 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.6510 ms
+2026-02-14 05:04:28.703 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:04:28.707 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:04:28.851 +05:00 [INF] HTTP GET /api/Employees responded 200 in 1582.4988 ms
+2026-02-14 05:14:27.276 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 4.2256 ms
+2026-02-14 05:14:27.521 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.9769 ms
+2026-02-14 05:14:46.736 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 87.3888 ms
+2026-02-14 05:14:47.007 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.8546 ms
+2026-02-14 05:14:50.134 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:14:50.137 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:14:50.257 +05:00 [INF] HTTP GET /api/Employees responded 200 in 1322.6985 ms
+2026-02-14 05:22:54.656 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 66.9126 ms
+2026-02-14 05:22:54.794 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.0935 ms
+2026-02-14 05:23:10.114 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:23:10.118 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:23:10.283 +05:00 [INF] HTTP GET /api/Employees responded 200 in 2280.4274 ms
+2026-02-14 05:33:13.052 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 67.5752 ms
+2026-02-14 05:33:13.214 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.4974 ms
+2026-02-14 05:33:20.288 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:33:20.292 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:33:20.453 +05:00 [INF] HTTP GET /api/Employees responded 200 in 2195.4116 ms
+2026-02-14 05:33:49.498 +05:00 [INF] HTTP GET /api/Employees responded 200 in 62.2298 ms
+2026-02-14 05:34:00.206 +05:00 [INF] HTTP GET /api/Employees responded 200 in 31.1500 ms
+2026-02-14 05:38:34.218 +05:00 [INF] HTTP GET /api/Employees responded 200 in 17.5016 ms
+2026-02-14 05:38:39.197 +05:00 [INF] HTTP GET /api/Employees responded 200 in 8.8927 ms
+2026-02-14 05:38:54.092 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 95.9870 ms
+2026-02-14 05:38:54.258 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.0103 ms
+2026-02-14 05:38:58.329 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:38:58.334 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:38:58.483 +05:00 [INF] HTTP GET /api/Employees responded 200 in 1282.9565 ms
+2026-02-14 05:46:31.413 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 68.9076 ms
+2026-02-14 05:46:31.567 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.8591 ms
+2026-02-14 05:46:41.355 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:46:41.358 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:46:41.510 +05:00 [INF] HTTP GET /api/Employees responded 200 in 2198.1486 ms
+2026-02-14 05:48:26.851 +05:00 [INF] HTTP GET /api/Employees responded 200 in 55.7390 ms
+2026-02-14 05:49:47.606 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 68.7910 ms
+2026-02-14 05:49:47.769 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.2973 ms
+2026-02-14 05:49:54.372 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:49:54.375 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:49:54.532 +05:00 [INF] HTTP GET /api/Employees responded 200 in 2272.5192 ms
+2026-02-14 05:53:26.373 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 78.0750 ms
+2026-02-14 05:53:26.666 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.8720 ms
+2026-02-14 05:53:30.633 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:53:30.636 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 05:53:30.793 +05:00 [INF] HTTP GET /api/Employees responded 200 in 1386.3456 ms
+2026-02-14 06:00:21.424 +05:00 [INF] HTTP GET /api/Employees responded 200 in 75.5171 ms
+2026-02-14 06:03:18.975 +05:00 [INF] HTTP GET /api/Employees responded 200 in 29.1769 ms
+2026-02-14 06:06:59.220 +05:00 [INF] HTTP GET /api/Employees responded 200 in 17.5267 ms
+2026-02-14 06:07:37.241 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 71.4117 ms
+2026-02-14 06:07:37.385 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.1805 ms
+2026-02-14 06:07:42.859 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 06:07:42.863 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-02-14 06:07:43.053 +05:00 [INF] HTTP GET /api/Employees responded 200 in 2331.4274 ms
+2026-02-14 06:09:24.664 +05:00 [INF] HTTP GET /api/Employees responded 200 in 56.2194 ms
+2026-02-14 06:09:35.039 +05:00 [INF] HTTP GET /api/Employees responded 200 in 24.8160 ms
+2026-02-14 06:09:44.797 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 6.3031 ms
+2026-02-14 06:09:44.902 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 7.5440 ms
+2026-02-14 06:09:45.140 +05:00 [INF] HTTP GET /api/Employees responded 200 in 13.1799 ms
+2026-02-14 21:11:42.453 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 319.3982 ms
+2026-02-14 21:11:42.844 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.8536 ms
+2026-02-14 21:11:57.687 +05:00 [WRN] Client error 0HNJBSEUJ77EQ:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77EQ:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:11:57.876 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 201.0682 ms
+2026-02-14 21:13:30.206 +05:00 [WRN] Client error 0HNJBSEUJ77ER:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77ER:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:13:30.225 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 20.2416 ms
+2026-02-14 21:15:07.001 +05:00 [WRN] Client error 0HNJBSEUJ77ES:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77ES:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:15:07.018 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 17.0974 ms
+2026-02-14 21:15:07.638 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 10.3779 ms
+2026-02-14 21:15:08.209 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.2815 ms
+2026-02-14 21:15:10.899 +05:00 [WRN] Client error 0HNJBSEUJ77ES:00000002: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77ES:00000002"},"$type":"ProblemDetails"}
+2026-02-14 21:15:10.938 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 38.8180 ms
+2026-02-14 21:16:31.378 +05:00 [WRN] Client error 0HNJBSEUJ77EU:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77EU:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:16:31.399 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 21.1492 ms
+2026-02-14 21:18:08.165 +05:00 [WRN] Client error 0HNJBSEUJ77EV:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77EV:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:18:08.248 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 82.9338 ms
+2026-02-14 21:19:48.187 +05:00 [WRN] Client error 0HNJBSEUJ77F0:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77F0:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:19:48.264 +05:00 [WRN] HTTP POST /api/api/employees/getpaged responded 404 in 77.0549 ms
+2026-02-14 21:21:10.701 +05:00 [WRN] Client error 0HNJBSEUJ77ET:00000009: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77ET:00000009"},"$type":"ProblemDetails"}
+2026-02-14 21:21:10.723 +05:00 [WRN] HTTP GET /api/employees/getpaged responded 404 in 23.1419 ms
+2026-02-14 21:21:11.036 +05:00 [WRN] Client error 0HNJBSEUJ77ET:0000000B: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBSEUJ77ET:0000000B"},"$type":"ProblemDetails"}
+2026-02-14 21:21:11.052 +05:00 [WRN] HTTP GET /favicon.ico responded 404 in 16.5018 ms
+2026-02-14 21:49:01.976 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 73.4242 ms
+2026-02-14 21:49:02.241 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.1813 ms
+2026-02-14 21:49:06.680 +05:00 [WRN] Client error 0HNJBT3QATNAH:00000001: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBT3QATNAH:00000001"},"$type":"ProblemDetails"}
+2026-02-14 21:49:06.725 +05:00 [WRN] HTTP GET /api/api/employees responded 404 in 49.5078 ms
+2026-02-14 21:49:35.733 +05:00 [WRN] Client error 0HNJBT3QATNAH:00000002: {"Type":"https://tools.ietf.org/html/rfc9110#section-15.5.5","Title":"Not Found","Status":404,"Detail":null,"Instance":null,"Extensions":{"traceId":"0HNJBT3QATNAH:00000002"},"$type":"ProblemDetails"}
+2026-02-14 21:49:35.745 +05:00 [WRN] HTTP GET /api/api/employees responded 404 in 12.6747 ms
+2026-02-14 21:52:13.947 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 72.1865 ms
+2026-02-14 21:52:14.187 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.5169 ms
+2026-02-14 21:52:28.259 +05:00 [INF] HTTP GET /api/employees responded 200 in 2334.3320 ms
+2026-02-14 21:52:50.478 +05:00 [INF] HTTP GET /api/employees responded 200 in 55.1476 ms
+2026-02-14 21:52:52.381 +05:00 [INF] HTTP GET /api/employees responded 200 in 20.8959 ms
+2026-02-14 21:52:54.693 +05:00 [INF] HTTP GET /api/employees responded 200 in 8.5783 ms
+2026-02-14 21:52:56.739 +05:00 [INF] HTTP GET /api/employees responded 200 in 7.4566 ms
+2026-02-14 22:01:33.716 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 13.3154 ms
+2026-02-14 22:01:33.976 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.2844 ms
+2026-02-14 22:01:34.201 +05:00 [INF] HTTP GET /api/employees responded 200 in 35.5684 ms
+2026-02-14 22:05:01.775 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 2.3193 ms
+2026-02-14 22:05:02.035 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.2045 ms
+2026-02-14 22:05:02.521 +05:00 [INF] HTTP GET /api/employees responded 200 in 18.2719 ms
+2026-02-14 22:06:00.043 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 3.9606 ms
+2026-02-14 22:06:00.178 +05:00 [INF] HTTP GET /api/employees responded 200 in 21.5258 ms
+2026-02-14 22:06:00.209 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.1819 ms
+2026-02-14 22:10:42.869 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 16.7524 ms
+2026-02-14 22:10:43.342 +05:00 [INF] HTTP GET /api/employees responded 200 in 36.5922 ms
+2026-02-14 22:10:43.617 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.0764 ms
+2026-02-14 22:11:12.155 +05:00 [INF] HTTP GET /api/employees responded 200 in 42.1257 ms
+2026-02-14 22:11:14.794 +05:00 [INF] HTTP GET /api/employees responded 200 in 28.2586 ms
+2026-02-14 22:11:17.202 +05:00 [INF] HTTP GET /api/employees responded 200 in 25.9882 ms
+2026-02-14 22:11:19.620 +05:00 [INF] HTTP GET /api/employees responded 200 in 27.3234 ms
+2026-02-14 22:11:52.426 +05:00 [INF] HTTP GET /api/employees responded 200 in 23.8967 ms
+2026-02-14 22:14:38.534 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 9.6629 ms
+2026-02-14 22:14:39.036 +05:00 [INF] HTTP GET /api/employees responded 200 in 27.2571 ms
+2026-02-14 22:14:39.445 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.9941 ms
+2026-02-14 22:15:27.487 +05:00 [INF] HTTP GET /api/employees responded 200 in 25.1164 ms
+2026-02-14 22:15:28.067 +05:00 [INF] HTTP GET /api/employees responded 200 in 39.3440 ms
+2026-02-14 22:15:28.831 +05:00 [INF] HTTP GET /api/employees responded 200 in 40.9824 ms
+2026-02-14 22:15:31.973 +05:00 [INF] HTTP GET /api/employees responded 200 in 22.8768 ms
+2026-02-14 22:15:32.466 +05:00 [INF] HTTP GET /api/employees responded 200 in 24.7349 ms
+2026-02-14 22:15:32.915 +05:00 [INF] HTTP GET /api/employees responded 200 in 26.0479 ms
+2026-02-14 22:15:34.643 +05:00 [INF] HTTP GET /api/employees responded 200 in 25.8516 ms
+2026-02-14 22:15:35.174 +05:00 [INF] HTTP GET /api/employees responded 200 in 14.2800 ms
+2026-02-14 22:15:35.947 +05:00 [INF] HTTP GET /api/employees responded 200 in 24.3432 ms
+2026-02-14 22:15:37.056 +05:00 [INF] HTTP GET /api/employees responded 200 in 22.9714 ms
+2026-02-14 22:15:37.505 +05:00 [INF] HTTP GET /api/employees responded 200 in 26.4670 ms
+2026-02-14 22:15:38.306 +05:00 [INF] HTTP GET /api/employees responded 200 in 28.1245 ms
+2026-02-14 22:21:07.908 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 15.9181 ms
+2026-02-14 22:21:08.389 +05:00 [INF] HTTP GET /api/employees responded 200 in 60.2610 ms
+2026-02-14 22:21:08.566 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.0176 ms
+2026-02-14 22:25:42.295 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 2.0129 ms
+2026-02-14 22:25:42.570 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.8507 ms
+2026-02-14 22:29:00.355 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 2.9044 ms
+2026-02-14 22:29:00.644 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.0554 ms
+2026-02-14 22:40:10.073 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 87.2038 ms
+2026-02-14 22:40:10.368 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.3923 ms
+2026-02-14 22:48:17.306 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 3.6784 ms
+2026-02-14 22:48:17.560 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.2043 ms
+2026-02-14 23:01:11.939 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 14.6427 ms
+2026-02-14 23:01:12.193 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 5.5081 ms
+2026-02-14 23:07:03.108 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 90.0460 ms
+2026-02-14 23:07:03.345 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.4599 ms
+2026-02-14 23:08:54.758 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 14.6465 ms
+2026-02-14 23:08:55.024 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.7085 ms
+2026-02-14 23:11:14.810 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 5.3971 ms
+2026-02-14 23:11:15.109 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.5242 ms
+2026-02-14 23:16:31.404 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 2.5186 ms
+2026-02-14 23:16:31.667 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.3910 ms
+2026-02-14 23:16:33.978 +05:00 [INF] HTTP GET /api/employees responded 200 in 2441.9494 ms
+2026-02-14 23:16:49.340 +05:00 [INF] HTTP GET /api/employees responded 200 in 57.9215 ms
+2026-02-14 23:16:50.648 +05:00 [INF] HTTP GET /api/employees responded 200 in 35.9224 ms
+2026-02-14 23:16:53.450 +05:00 [INF] HTTP GET /api/employees responded 200 in 20.8161 ms
+2026-02-14 23:17:05.598 +05:00 [INF] HTTP GET /api/employees responded 200 in 13.1460 ms

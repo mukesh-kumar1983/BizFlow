@@ -1,7 +1,7 @@
-﻿using EmployeeService.Application.Services;
-using EmployeeService.Domain.Repositories;
+﻿using EmployeeService.Application;
+using EmployeeService.Application.Employees.Commands.CreateEmployee;
 using EmployeeService.Infrastructure;
-using Microsoft.EntityFrameworkCore;
+using MediatR;
 using Serilog;
 using Serilog.Events;
 
@@ -31,11 +31,28 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Infrastructure (DbContext + Repositories)
+builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-// Application Services
-builder.Services.AddScoped<IEmployeeAppService, EmployeeAppService>();
+
+
+builder.Services.AddMediatR(typeof(CreateEmployeeCommand).Assembly);
+
+// ----------------------------
+// Enable CORS
+// ----------------------------
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("https://localhost:7150") // Your MVC app URL
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 /// Problem Details (RFC 7807)
 builder.Services.AddProblemDetails(options =>
@@ -65,6 +82,9 @@ var app = builder.Build();
 // ----------------------------
 // Middleware
 // ----------------------------
+
+// Use CORS BEFORE any controllers
+app.UseCors(MyAllowSpecificOrigins);
 
 // Serilog HTTP request logging (must be first)
 app.UseSerilogRequestLogging(options =>

@@ -1,7 +1,9 @@
-﻿using EmployeeService.Domain.Common;
+﻿using EmployeeService.Domain.Repositories;
+
+using EmployeeService.Domain.Common;
 using EmployeeService.Domain.Entities;
 using EmployeeService.Domain.Queries;
-using EmployeeService.Domain.Repositories;
+
 using EmployeeService.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,37 +19,48 @@ namespace EmployeeService.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<PagedResult<Employee>> GetPagedAsync(EmployeeQueryParameters query)
+        public async Task<PagedResult<Employee>> GetPagedAsync(EmployeeQueryParameters parameters)
         {
-            var employees = _context.Employees.AsQueryable();
+            var query = _context.Employees.AsQueryable();
 
-            if (!string.IsNullOrWhiteSpace(query.Search))
-                employees = employees.Where(e =>
-                    e.FirstName.Contains(query.Search) ||
-                    e.LastName.Contains(query.Search));
+            if (!string.IsNullOrWhiteSpace(parameters.Search))
+            {
+                query = query.Where(e =>
+                    e.FirstName.Contains(parameters.Search) ||
+                    e.LastName.Contains(parameters.Search) ||
+                    e.Email.Contains(parameters.Search));
+            }
 
-            var total = await employees.CountAsync();
+            var totalCount = await query.CountAsync();
 
-            var items = await employees
-                .Skip((query.PageNumber - 1) * query.PageSize)
-                .Take(query.PageSize)
+            var items = await query
+                .Skip((parameters.PageNumber - 1) * parameters.PageSize)
+                .Take(parameters.PageSize)
                 .ToListAsync();
 
             return new PagedResult<Employee>(
                 items,
-                total,
-                query.PageNumber,
-                query.PageSize
-            );
+                totalCount,
+                parameters.PageNumber,
+                parameters.PageSize);
         }
 
-        public Task<Employee?> GetByIdAsync(Guid id) =>
-            _context.Employees.FindAsync(id).AsTask();
 
         public async Task AddAsync(Employee employee)
         {
+            
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<Employee?> GetByIdAsync(Guid id)
+        {
+            return await _context.Employees.FindAsync(id);
+        }
+
+        public async Task<IEnumerable<Employee>> ListAsync()
+        {
+            return await _context.Employees.ToListAsync();
         }
 
         public async Task UpdateAsync(Employee employee)
@@ -56,13 +69,11 @@ namespace EmployeeService.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(Employee employee)
         {
-            var employee = await GetByIdAsync(id);
-            if (employee == null) return;
-
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
         }
+
     }
 }

@@ -2,14 +2,13 @@
 using EmployeeService.Domain.Entities;
 using EmployeeService.Domain.Queries;
 
-namespace EmployeeService.Domain.Repositories
+namespace EmployeeService.Domain.Repositories;
+
+public interface IEmployeeRepository
 {
-    public interface IEmployeeRepository
-    {
-        Task<PagedResult<Employee>> GetPagedAsync(EmployeeQueryParameters query);
-        Task<Employee?> GetByIdAsync(Guid id);
-        Task AddAsync(Employee employee);
-        Task UpdateAsync(Employee employee);
-        Task DeleteAsync(Guid id);
-    }
+    Task<Employee?> GetByIdAsync(Guid id);
+    Task<PagedResult<Employee>> GetPagedAsync(EmployeeQueryParameters parameters);
+    Task AddAsync(Employee employee);
+    Task UpdateAsync(Employee employee);
+    Task DeleteAsync(Employee employee);
 }

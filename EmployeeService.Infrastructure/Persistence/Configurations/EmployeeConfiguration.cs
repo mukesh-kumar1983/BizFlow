@@ -24,6 +24,10 @@ public sealed class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
         builder.HasIndex(e => e.Email)
                .IsUnique();
 
+        builder.Property(e => e.RowVersion)
+       .IsRowVersion()
+       .IsRequired();
+
 
         //builder.Property(e => e.CreatedAt)
         //       .IsRequired();

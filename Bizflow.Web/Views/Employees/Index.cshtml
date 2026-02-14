@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Employees";
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Employees</h2>
+
+<table id="employeeTable" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#employeeTable').DataTable({
+                processing: true,
+                serverSide: true,
+                ajax: {
+                    url: '@Url.Action("GetEmployees", "Employees")',
+                    type: 'POST'
+                },
+                columns: [
+                    { data: 'firstName', name: 'FirstName' },
+                    { data: 'lastName', name: 'LastName' },
+                    { data: 'email', name: 'Email' }
+                ],
+                order: [[0, "asc"]],
+                pageLength: 10,
+                lengthMenu: [10, 25, 50, 100],
+                responsive: true,
+                language: { processing: "Loading employees..." }
+            });
+        });
+    </script>
+}

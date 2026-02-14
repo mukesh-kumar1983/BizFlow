@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* Wrapper */
+#wrapper {
+    min-height: 100vh;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    width: 250px;
+    transition: width 0.3s;
+}
+
+    #sidebar-wrapper .menu-text {
+        display: inline;
+        transition: opacity 0.3s;
+    }
+
+/* Collapsed state */
+#wrapper.sidebar-collapsed #sidebar-wrapper {
+    width: 70px;
+}
+
+    #wrapper.sidebar-collapsed #sidebar-wrapper .menu-text {
+        opacity: 0;
+        display: none;
+    }
+
+/* Brand always visible */
+#sidebar-wrapper .brand-text {
+    opacity: 1;
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Page content adjusts */
+#wrapper.sidebar-collapsed #page-content-wrapper {
+    margin-left: 70px;
+}
+
+/* Sidebar hover effect */
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #374151;
+}
+
+
+
